@@ -22,6 +22,6 @@ public class Ellipse {
 
     public void paint (Graphics g) {
         Graphics2D g2d = (Graphics2D) g;
-        g2d.draw(new Ellipse2D.Double(this.x,this.y, this.w,this.h));
+        g2d.draw(new Ellipse2D.Double(this.x, this.y, this.w, this.h));
     }
 }
