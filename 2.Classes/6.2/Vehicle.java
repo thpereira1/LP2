@@ -5,6 +5,7 @@ class Vehicle extends Test{
 }
 
 class MotorBike extends Vehicle {
+    @Override
     public void move() {
     System.out.println("Moto pode se mover e acelerar tambem!!");
     }
